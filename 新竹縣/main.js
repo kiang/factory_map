@@ -102,7 +102,7 @@ var baseLayer = new ol.layer.Tile({
 var factories = new ol.layer.Vector({
     source: new ol.source.Vector({
         url: 'factories.json',
-        format: new ol.format.TopoJSON()
+        format: new ol.format.GeoJSON()
     }),
     style: layerRed
 });
@@ -125,7 +125,7 @@ var zones = new ol.layer.Vector({
 
 var appView = new ol.View({
   center: ol.proj.fromLonLat([120.988528, 24.804498]),
-  zoom: 11
+  zoom: 12
 });
 
 var map = new ol.Map({
