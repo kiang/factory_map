@@ -124,8 +124,8 @@ var zones = new ol.layer.Vector({
 });
 
 var appView = new ol.View({
-  center: ol.proj.fromLonLat([120.6096711, 22.7221328]),
-  zoom: 11
+  center: ol.proj.fromLonLat([121.124322, 22.793229]),
+  zoom: 13
 });
 
 var map = new ol.Map({
@@ -143,8 +143,8 @@ var map = new ol.Map({
     }),
     new app.Button({
       bClassName: 'app-button2',
-      bText: '力',
-      bHref: 'https://npptw.org/R698Zo'
+      bText: '江',
+      bHref: 'https://www.facebook.com/k.olc.tw/'
     })
   ])
 });
